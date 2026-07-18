@@ -576,7 +576,7 @@ export default function Card() {
               <span style={st.cardTitle}>{cards[idx].title}</span>
               <div style={st.cardBody}>
                 {show && !isCake && !isEnvelope && (
-                  <TypeText lines={cards[idx].lines} speed={1} onDone={() => setTypingDone(true)} />
+                  <TypeText lines={cards[idx].lines} speed={34} onDone={() => setTypingDone(true)} />
                 )}
                 {isCake && (
                   <>
