@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fce4ec, #f8bbd0, #f48fb1);
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
